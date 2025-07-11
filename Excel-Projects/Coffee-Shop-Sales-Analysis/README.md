@@ -26,3 +26,5 @@ Filters for month, week, day, location, and category enhance user-driven data ex
 Layout uses clear visuals and minimal formatting to maintain focus on data insights .
 # Impact
 Provides a comprehensive view of sales performance, profitability trends, and consumer behaviors. Empowers stakeholders to make informed decisions about staffing, inventory, promotions, and expansions—transforming raw Excel data into strategic insights for business growth.
+![Coffee Shop Dashboard](images/Dashboard.png)
+
