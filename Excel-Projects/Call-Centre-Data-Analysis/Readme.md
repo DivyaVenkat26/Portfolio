@@ -59,7 +59,7 @@ Power Pivot, and Pivot Charts. The dashboard reveals trends in call volume, agen
 
 ##  How to Use
 1. Clone or download the repository.
-2. Open `CallCentreAnalysisProject.xlsx`.
+2. Open `Call Centre Project.xlsx`.
 3. Navigate through the sheets:
    - **Data**: Cleaned and raw dataset
    - **Pivot**: Calculations driving the metrics
