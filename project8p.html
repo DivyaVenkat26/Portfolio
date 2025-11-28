@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Data Analyst Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Montserrat:wght@300;400;600;700&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="topbar d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope"><a href="mailto:divyaprabhavenkatajalapathi@gmail.com">divyaprabhavenkatajalapathi@gmail.com</a></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="https://github.com/DivyaVenkat26/Portfolio-2/tree/main/Python%20Projects" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/divyaprabha-v-3b5702370/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1>Portfolio<span>.</span></h1>
+      </a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <div class="page-header d-flex align-items-center" style="background-image: url('');">
+        <div class="container position-relative">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h2>Diwali Sales Analysis</h2>
+              <p>Python Project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Diwali Sales</li>
+          </ol>
+        </div>
+      </nav>
+    </div>
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container" data-aos="fade-up">
+
+        <!-- Start Row -->
+        <div class="row justify-content-between gy-4 mt-4">
+        
+          <!-- Left Column -->
+          <div class="col-lg-8">
+            <div class="portfolio-description">
+
+              <h2>Introduction</h2>
+              <p>This project involves analyzing Diwali sales data using Python. The aim is to uncover valuable customer insights, optimize marketing strategies, and identify top-performing products and customer segments.</p>
+              <hr>
+
+              <h2>Objective</h2>
+              <ul>
+                <li>Import and clean raw Diwali sales data using Pandas.</li>
+                <li>Explore customer demographics and purchase behavior.</li>
+                <li>Use visualization libraries (Matplotlib & Seaborn) to reveal sales patterns and business insights.</li>
+                <li>Identify profitable customer segments and product categories.</li>
+              </ul>
+              <hr>
+
+              <h2>Methodology</h2>
+              <ol>
+                <li>
+                  <p><strong>Data Import</strong></p>
+                  <p>The dataset <code>Diwali Sales Data.csv</code> was imported using <code>pd.read_csv()</code>.</p>
+                  <img src="pimages/d-1.png" alt="Importing Data" class="center-image mb-4">
+                </li>
+                <li>
+                  <p><strong>Data Cleaning</strong></p>
+                  <p>Unnecessary columns like <code>Unnamed,status</code> were dropped, and missing values handled with <code>dropna()</code> and <code>fillna()</code>.</p>
+                  <img src="pimages/d-2.png" alt="Null Cleaning" class="center-image mb-4">
+                  <img src="pimages/d-3.png" alt="Null Cleaning" class="center-image mb-4">
+                </li>
+                <li>
+                  <p><strong>Data Transformation</strong></p>
+                  <p>New column: <code>Total Amount = Quantity × Amount</code>. Data types were adjusted using <code>astype()</code>.</p>
+                </li>
+                <li>
+                  <p><strong>Exploratory Data Analysis (EDA)</strong></p>
+                  <ul>
+                    <li>Gender-wise and age-wise spending patterns</li>
+                    <li>Top states by total sales</li>
+                    <li>Most profitable product categories</li>
+                  </ul>
+                  <img src="pimages/d-4.png" alt="Gender vs Amount" class="center-image mb-3">
+                  <img src="pimages/d-6.png" alt="State-wise Revenue" class="center-image mb-3">
+                </li>
+              </ol>
+
+              <div class="text-center mt-4">
+                <a href="pimages/Diwali Sales Analysis.ipynb" class="btn btn-primary" target="_blank">For more EDA Download</a>
+              </div>
+
+              <hr>
+              <h2>Results</h2>
+              <ol>
+                <li>Female customers aged 26–35 were top spenders.</li>
+                <li>Maharashtra and Karnataka led in sales volume.</li>
+                <li>Food and clothing categories were most popular.</li>
+                <li>Married individuals made most purchases.</li>
+                <li>Targeted campaigns based on age-gender were most effective.</li>
+              </ol>
+
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div class="col-lg-3">
+            <div class="portfolio-info">
+              <h3>Summary</h3>
+              <ul>
+                <li><strong>Tools</strong> <span>Python (Pandas, Matplotlib, Seaborn)</span></li>
+                <li><strong>Objective</strong> <span>Analyze customer behavior during Diwali</span></li>
+                <li><strong>Data Stages</strong><br>
+                  <span>Data Import</span><br>
+                  <span>Data Cleaning</span><br>
+                  <span>Data Transformation</span><br>
+                  <span>Exploratory Data Analysis</span><br>
+                  <span>Insight Extraction</span>
+                </li>
+                <hr>
+                <li><a href="https://github.com/DivyaVenkat26/Python/tree/main/Python%20Projects/Diwali%20Sales%20Analysis" class="btn-visit align-self-start">Go to GitHub!</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div> <!-- End Row -->
+
+        <hr>
+        <p style="text-align:center; color:#666; font-size:15px; margin-bottom:20px; font-style:italic;">
+  Click on image to view the project
+</p>
+
+        <!-- Image Slider (optional) -->
+        <div class="position-relative h-100">
+          <div class="slides-1 portfolio-details-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
+                <a href="project1.html"><img src="images/HR.jpg" alt=""></a>
+              </div>
+              <div class="swiper-slide"><a href="project1e.html"><img src="images/Coffee_shop.jpg" alt=""></a></div>
+              <div class="swiper-slide"><a href="project2e.html"><img src="images/Call.jpg" alt=""></a></div>
+              <div class="swiper-slide"><a href="project3e.html"><img src="images/MTA_Ridership.webp" alt=""></a></div>
+              <div class="swiper-slide"><a href="project4s.html"><img src="images/pizzasalesdataanalysis.webp" alt=""></a></div>
+              <div class="swiper-slide"><a href="project5s.html"><img src="images/restaurant.jpg" alt=""></a></div>
+              <div class="swiper-slide"><a href="project6s.html"><img src="images/wc.jpg" alt=""></a></div>
+              <div class="swiper-slide">
+                <a href="project7p.html"><img src="images/Ecommerce.png" alt=""></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="project8p.html"><img src="images/diwali.png" alt=""></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="project9p.html"><img src="images/airline.jpg" alt=""></a>
+              </div>
+               <div class="swiper-slide">
+                <a href="project10pb.html"><img src="images/EV.jpg" alt=""></a>
+              </div>
+               <div class="swiper-slide">
+                <a href="project11pb.html"><img src="images/uber.jpg" alt=""></a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Impact</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
